@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Test Lynxmsk</string>
+
+    <string name="url_category">http://mikonatoruri.win/list.php?category={category}</string>
+    <string name="url_article">http://mikonatoruri.win/post.php?article={article}</string>
+
+    <string-array name="array_category_name">
+        <item>Футбол</item>
+        <item>Хоккей</item>
+        <item>Теннис</item>
+        <item>Баскетбол</item>
+        <item>Волейбол</item>
+        <item>Кубер-спорт</item>
+    </string-array>
+
+    <string-array name="array_category_url">
+        <item>football</item>
+        <item>hockey</item>
+        <item>tennis</item>
+        <item>basketball</item>
+        <item>volleyball</item>
+        <item>cybersport</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvArticleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="top|left"
+        android:text="Title"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvArticleCoefficient"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="left|center_vertical"
+        android:text="Coefficient"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvArticleTime"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="left|center_vertical"
+        android:text="Time"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvArticlePlace"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="left|center_vertical"
+        android:text="Place"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvArticlePreview"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="left|center_vertical"
+        android:text="PreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreviewPreview"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/tvArticleArticle"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:gravity="right|center_vertical"
+        android:text="Article"
+        android:textSize="10sp" />
+
+</LinearLayout>
